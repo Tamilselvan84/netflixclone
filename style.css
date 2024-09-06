@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+.netflix {
+    background-color: black;
+}
+
+.sec1 {
+    background-image: radial-gradient(transparent, black), url("https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/81bdc063-cb8f-4afe-8a02-a3131ca4ef5e/IN-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_7998f3b6-63e3-424a-8328-550cf777ddce_medium.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.lang-sign {
+    padding-top: 10px;
+}
+
+.lang {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 150%;
+    color: white;
+    background-color: transparent;
+}
+
+.sign-in {
+    padding: 10px;
+    border: 0px;
+    font-size: 150%;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
+.email {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.heading {
+    font-size: 200%;
+}
+
+.para {
+    font-size: 100%;
+}
+
+.title {
+    font-size: 150%;
+    text-align: center;
+}
+
+.input {
+    margin: 5px;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: transparent;
+    font-size: 90%;
+}
+
+.getstart {
+    margin: 5px;
+    padding: 8px;
+    border: 0px;
+    font-size: 120%;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
+.separation {
+    background-color: grey;
+    height: 10px;
+}
+
+.sec2 {
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv {
+    position: relative;
+    z-index: 10;
+}
+
+.video {
+    top: 730px;
+    left: 580px;
+    position: absolute;
+}
+
+.sec3 {
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4 {
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pc {
+    position: relative;
+    z-index: 10;
+}
+
+.pc-video {
+    width: 30%;
+    top: 1740px;
+    left: 610px;
+    position: absolute;
+}
+
+.sec5 {
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6 {
+    font-size: 200%;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    list-style-type: none;
+    margin-right: 50%;
+}
+
+.listvalue {
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #353839;
+    width: 200%;
+}
+
+.ques-para {
+    font-size: 80%;
+}
+
+.footer {
+    padding: 90px;
+    color: #ffffffb3;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+a {
+    color: #ffffffb3;
+}
+
+.footer-head {
+    margin-left: 40px;
+}
+
+.footer-sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.em {
+    padding: 5px;
+}
+
+.eng {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: transparent;
+}
